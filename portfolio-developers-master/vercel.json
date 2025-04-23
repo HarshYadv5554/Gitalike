@@ -1,11 +1,9 @@
 {
   "version": 2,
-  "builds": [
-    {
-      "src": "package.json",
-      "use": "@vercel/next"
-    }
-  ],
+  "buildCommand": "npm run build",
+  "devCommand": "npm run dev",
+  "installCommand": "npm install",
+  "framework": "nextjs",
   "env": {
     "GH_TOKEN": "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",
     "VC_TOKEN": "7xdTCbp2vJRxfWDFsmKNTQs5"
